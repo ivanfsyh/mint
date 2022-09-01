@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,MAAM,AAAC,CACH,gBAAgB,CAAE,SAAS,CAI9B,AALD,AAEI,MAFE,CAEF,EAAE,AAAC,CACC,SAAS,CAAE,IAAI,CAClB,AAGL,AAAA,CAAC,AAAC,CACE,KAAK,CATC,MAAM,CAUZ,gBAAgB,CAAE,iDAAiD,CACtE",
+    "sources": [
+        "../../../../Users/LENOVO/Desktop/code/sass/main.scss"
+    ],
+    "names": [],
+    "file": "main.css.map"
+}

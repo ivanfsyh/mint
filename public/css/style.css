@@ -1,0 +1,135 @@
+main {
+  margin-top: 3rem;
+  display: flex;
+}
+.off {
+  position: fixed;
+}
+
+.sidebar {
+  box-sizing: border-box;
+  padding: 8px;
+  min-width: 250px;
+  max-width: 250px;
+  z-index: 0;
+  transition: all 0.7s;
+  margin-left: 0;
+  position: relative;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+#content {
+  margin-left: 20%;
+  transition: all 0.7s;
+}
+
+/* Aktif sidebar */
+#sidebar.hidup {
+  margin-left: -250px;
+}
+#content.hidup {
+  margin-left: 5%;
+  transition: all 0.7s;
+}
+
+#sidebar nav p {
+  color: #666666;
+  font-size: 8pt;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+
+#sidebar nav a {
+  color: #838383;
+}
+
+#sidebar nav a:hover {
+  color: #e2e2e2;
+}
+
+#sidebar nav .on {
+  color: #e2e2e2;
+}
+
+.card-body-icon {
+  position: absolute;
+  z-index: 0;
+  bottom: 15px;
+  right: 25px;
+  opacity: 0.4;
+  font-size: 110px;
+}
+
+.jadwal h1 {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.jadwal a {
+  text-decoration: none;
+  color: #272727;
+}
+
+.jadwal a:hover {
+  text-decoration: underline;
+}
+
+.jadwal p {
+  color: #4646467c;
+  font-style: italic;
+  text-align: center;
+  line-height: 8rem;
+}
+
+#login,
+#registrasi {
+  background-image: url(http://localhost/mint/public/img/mint.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: 100%;
+  position: fixed;
+}
+
+.bg-mint {
+  background-color: #053308;
+}
+
+#login .tengah {
+  margin: auto;
+}
+
+#login .card,
+#login input,
+#login span {
+  background-color: #00808031;
+  border: teal;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  main {
+    margin-top: 3rem;
+    display: flex;
+  }
+
+  #content {
+    margin-left: unset;
+    z-index: -1;
+  }
+
+  .sidebar {
+    box-sizing: border-box;
+    padding: 8px;
+    width: 70%;
+    position: absolute;
+    z-index: 1;
+    transition: all 0.7s;
+    margin-left: -270px;
+  }
+  /* Aktif sidebar */
+  #sidebar.hidup {
+    margin-left: -1px;
+  }
+}
