@@ -1,3 +1,0 @@
-<a href="<?= BASEURL; ?>/konsultasi-hasil/2/<?= $geturl[2]; ?>/<?= $geturl[3]; ?>" class="btn btn-sm btn-light <?= pekan($user, $tanaman, 2) == 1 ? '' : 'd-none';  ?>">
-                        Detail <i class="fas fa-angle-double-right"></i>
-                    </a>
